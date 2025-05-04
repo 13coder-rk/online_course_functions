@@ -7,7 +7,7 @@ on:
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'rkocsignupvalidation'
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'        # Update if your project is in a subfolder
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'        # Update if your projects is in a subfolder
   DOTNET_VERSION: '8.0.x'
 
 jobs:
