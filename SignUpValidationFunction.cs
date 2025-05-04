@@ -23,7 +23,7 @@ namespace LSC.ExpenseTrackerFunctions
         }
 
 
-        [Function("rkocsignupvalidation")]
+        [Function("SignUpValidation")]
         public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
             ILogger log)
