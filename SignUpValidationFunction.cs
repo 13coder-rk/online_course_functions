@@ -151,7 +151,7 @@ namespace LSC.ExpenseTrackerFunctions
                 return false;
             }
 
-            // Get the the HTTP basinc authorization credentials
+            // Get the the HTTP basinc authorization credential
             var cred = Encoding.UTF8.GetString(Convert.FromBase64String(auth.Substring(6))).Split(':');
 
             // Evaluate the credentials and return the result
